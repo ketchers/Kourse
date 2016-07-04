@@ -30,11 +30,14 @@ h3 {
 
 .module > a {
     color: rgba(10, 10, 10, .8);
+    display: inline-block;
     font-size: 110%;
     text-decoration: none;
     border-radius: 5px;
-    margin: 0 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
     background-color: rgba(200, 100, 100, .5);
+    padding: 5px;
 }
 
 .module > a:hover,
@@ -42,8 +45,6 @@ h3 {
     color: rgba(10, 10, 10, .8);
     font-size: 110%;
     text-decoration: none;
-    border-radius: 5px;
-    margin: 0 5px;
     background-color: rgba(250, 150, 150, .5);
 }
 
