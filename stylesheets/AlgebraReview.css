@@ -14,12 +14,46 @@ h3 {
     margin: 10px 0 0 100px;
 }
 
+.module {
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.module div {
+    display: none;
+}
+
+.module div:target {
+    display: inline-block;
+}
+
+.module > a {
+    color: rgba(10, 10, 10, .8);
+    font-size: 110%;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: rgba(200, 100, 100, .5);
+}
+
+.module > a:hover,
+.module > a:active {
+    color: rgba(10, 10, 10, .8);
+    font-size: 110%;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: rgba(250, 150, 150, .5);
+}
+
 .course-container {
+    text-align: left;
     clear: both;
     display: inline-block;
     width: 100%;
     margin: 10px 10px 10px 10px;
-    background-color: rgba(200, 200, 250, .5);
+    /*background-color: rgba(200, 200, 250, .5);*/
     border-radius: 10px;
     padding: 10px;
 }
